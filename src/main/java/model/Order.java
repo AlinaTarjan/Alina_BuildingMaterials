@@ -5,6 +5,7 @@ import java.math.BigDecimal;
 import java.sql.Date;
 
 @Entity
+@Table(name = "orders")
 public class Order {
 
     @Id
